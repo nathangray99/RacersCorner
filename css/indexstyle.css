@@ -4,6 +4,11 @@ body{
     background-image: url(../images/dullbackground.png);
     background-color: white;
     object-fit:contain;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    background-attachment: fixed;
+     background-size: cover;
+
 
     
 

@@ -1,7 +1,7 @@
 /****************BACKGROUND*************/
 body{
 
-    background-image: url(../images/dullbackground.png);
+    background-image: url(../images/background2.png);
     background-color: white;
     object-fit:contain;
 
@@ -15,10 +15,9 @@ body{
 
 /****************TITLE******************/
 .rclogo{
-    flex: none;
+    display: flex;
     width: auto;
     height: auto;
-    background-color: white;
     object-fit: cover;
  
 }
@@ -26,10 +25,14 @@ body{
 
 /**********************************************/
 
-img {width:100%; height:auto}
+.rclogo img {width:100%; max-height: 10rem; object-fit:contain;}
+.f1logo img {width:100%; height:auto}
+.f1logodark img {width:100%; height:auto}
+.gt3logo img {width:100%; height:auto}
+.gt3logodark img {width:100%; height:auto}
 
 /*****************NAV. BUTTONS*********************/
-.homebuttons{
+.acbuttons{
 
     display: flex;
     justify-content: space-evenly;
@@ -37,7 +40,7 @@ img {width:100%; height:auto}
    
 }
 
-    .pc2logodark{
+    .f1logodark{
 
     position: relative;
     height: 18.69vh;
@@ -45,7 +48,7 @@ img {width:100%; height:auto}
     padding: 1rem;
     }
 
-        .pc2logo{
+        .f1logo{
 
             position: absolute;
             left: 0px;
@@ -55,20 +58,20 @@ img {width:100%; height:auto}
             padding: 1rem;
             opacity: 1;
             }
-            .pc2logo:hover{
+            .f1logo:hover{
                 opacity: 0;
                 transition: opacity .5s ease;
                 cursor: pointer;
             }
 
-    .aclogodark{
+    .gt3logodark{
     position: relative;
     height: 18.69vh;
     width: 18.69vw;
     padding: 1rem;
     }
 
-        .aclogo{
+        .gt3logo{
 
             position: absolute;
             left: 0px;
@@ -78,7 +81,7 @@ img {width:100%; height:auto}
             padding: 1rem;
             opacity: 1;
             }
-            .aclogo:hover{
+            .gt3logo:hover{
                 opacity: 0;
                 transition: opacity .5s ease;
                 cursor: pointer;
