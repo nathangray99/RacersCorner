@@ -1,0 +1,86 @@
+/****************BACKGROUND*************/
+body{
+
+    background-image: url(../images/dullbackground.png);
+    background-color: white;
+    object-fit:contain;
+
+    
+
+
+}
+
+
+
+
+/****************TITLE******************/
+.rclogo{
+    flex: none;
+    width: auto;
+    height: auto;
+    background-color: white;
+    object-fit: cover;
+ 
+}
+
+
+/**********************************************/
+
+img {width:100%; height:auto}
+
+/*****************NAV. BUTTONS*********************/
+.homebuttons{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6vh;
+   
+}
+
+    .pc2logodark{
+
+    position: relative;
+    height: 18.69vh;
+    width: 18.69vw;
+    padding: 1rem;
+    }
+
+        .pc2logo{
+
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            height: 18.69vh;
+            width: 18.69vw;
+            padding: 1rem;
+            opacity: 1;
+            }
+            .pc2logo:hover{
+                opacity: 0;
+                transition: opacity .5s ease;
+                cursor: pointer;
+            }
+
+    .aclogodark{
+    position: relative;
+    height: 18.69vh;
+    width: 18.69vw;
+    padding: 1rem;
+    }
+
+        .aclogo{
+
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            height: 18.69vh;
+            width: 18.69vw;
+            padding: 1rem;
+            opacity: 1;
+            }
+            .aclogo:hover{
+                opacity: 0;
+                transition: opacity .5s ease;
+                cursor: pointer;
+            }
+/********************************************/
