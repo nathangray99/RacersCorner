@@ -11,10 +11,6 @@ body{
     padding: 0;
     margin: 0;
 
-
-    
-
-
 }
 
 
@@ -22,42 +18,33 @@ body{
 
 /****************TITLE******************/
 .title{
-    top: 0;
-    padding: 0;
-    margin: 0;
-    left: 0;
     flex-direction: column;
-    
 }
 
 .rclogo{
-    display: flex;
     width: 100%;
-    height: 100px;
     object-fit: cover; 
-    padding-bottom: 0;  
-    margin-bottom: 0;
     position: relative;
 }
 
 .topnav{
-    flex-direction: row;
-    background-color: #252222;
+    margin-top: -.5vh;
+    object-fit: cover;
+    background-color: #494545;
     overflow: hidden;
-    padding-top: 0;
     position: relative;
     width: 100%;
+    height: auto;
 }
 
 .topnav a {
-    display: inline-block;
-    width: 20%;
+    display: flex;
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1vw .7vh;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.2rem;
   }
 
 .discord{
