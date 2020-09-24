@@ -21,20 +21,57 @@ body{
 
 
 /****************TITLE******************/
+.title{
+    top: 0;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    flex-direction: column;
+    
+}
+
 .rclogo{
     display: flex;
     width: 100%;
-    height: auto;
-    object-fit: cover;
-    
+    height: 100px;
+    object-fit: cover; 
+    padding-bottom: 0;  
+    margin-bottom: 0;
+    position: relative;
+}
+
+.topnav{
+    flex-direction: row;
+    background-color: #252222;
+    overflow: hidden;
+    padding-top: 0;
+    position: relative;
+    width: 100%;
+}
+
+.topnav a {
+    display: inline-block;
+    width: 20%;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.discord{
+    display: flex;
+    justify-content: end;
 }
 /**********************************************/
 
-.rclogo img {width:100%; max-height: 400px; object-fit:contain; top: 0px; left: 0px}
+.rclogo img {width:100%; max-height: 300px; object-fit:contain; top: 0px; left: 0px; margin-bottom: 0;}
 .pc2logo img {width:100%; height:auto}
 .pc2logodark img {width:100%; height:auto}
 .aclogo img {width:100%; height:auto}
 .aclogodark img {width:100%; height:auto}
+.discord img {justify-content: right;}
 
 /*****************NAV. BUTTONS*********************/
 .homebuttons{
