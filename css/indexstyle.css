@@ -8,6 +8,8 @@ body{
     background-position: center, center;
     background-attachment: fixed;
     background-size: cover;
+    padding: 0;
+    margin: 0;
 
 
     
@@ -21,16 +23,14 @@ body{
 /****************TITLE******************/
 .rclogo{
     display: flex;
-    width: auto;
+    width: 100%;
     height: auto;
     object-fit: cover;
- 
+    
 }
-
-
 /**********************************************/
 
-.rclogo img {width:100%; max-height: 10rem; object-fit:contain;}
+.rclogo img {width:100%; max-height: 400px; object-fit:contain; top: 0px; left: 0px}
 .pc2logo img {width:100%; height:auto}
 .pc2logodark img {width:100%; height:auto}
 .aclogo img {width:100%; height:auto}
