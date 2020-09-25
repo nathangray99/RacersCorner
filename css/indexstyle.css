@@ -34,26 +34,34 @@ body{
     overflow: hidden;
     position: relative;
     width: 100%;
-    height: auto;
+    height: 8vh;
 }
 
-.topnav a {
+.topnav a{
     display: flex;
     float: left;
     color: #f2f2f2;
-    text-align: center;
-    padding: 1vw .7vh;
+    text-align: justify;
+    padding: .9vw 3vh;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 3vh;
+    font-family: verdana;
   }
 
 .discord{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
+    margin-right: 1vw;
+    margin-top: -.5vh
+}
+.discord a{
+    padding: 0, 0;
 }
 /**********************************************/
 
+
 .rclogo img {width:100%; max-height: 300px; object-fit:contain; top: 0px; left: 0px; margin-bottom: 0;}
+.discord img {width: 2.5vw; height: auto;}
 .pc2logo img {width:100%; height:auto}
 .pc2logodark img {width:100%; height:auto}
 .aclogo img {width:100%; height:auto}
