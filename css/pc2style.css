@@ -77,7 +77,7 @@ body{
 }
 /**********************************************/
 
-.rclogo img {width:100%; max-height: 10rem; object-fit:contain;}
+.rclogo img {width:100%; max-height: 300px; object-fit:contain; top: 0px; left: 0px; margin-bottom: 0;}
 .twitch img {width: 2.5vw; height: auto;}
 .discord img {width: 2.5vw; height: auto;}
 .fr35logo img {width:100%; height:auto}
