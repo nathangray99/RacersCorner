@@ -61,12 +61,11 @@ body{
 
 
 .rclogo img {width:100%; max-height: 300px; object-fit:contain; top: 0px; left: 0px; margin-bottom: 0;}
-.discord img {width: 2.5vw; height: auto;}
+.discord img {width: 2.5vw; height: auto; justify-content:right;}
 .pc2logo img {width:100%; height:auto}
 .pc2logodark img {width:100%; height:auto}
 .aclogo img {width:100%; height:auto}
 .aclogodark img {width:100%; height:auto}
-.discord img {justify-content: right;}
 
 /*****************NAV. BUTTONS*********************/
 .homebuttons{
