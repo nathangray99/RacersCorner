@@ -48,11 +48,26 @@ body{
     font-family: verdana;
   }
 
-.discord{
+.rightbuttons{
+    display:flex;
+    justify-content: flex end;
+    margin-top: -1vh;
+}
+
+.twitch{
     display: flex;
-    justify-content: flex-end;
-    margin-right: 1vw;
-    margin-top: -.5vh
+    justify-content: flex-start;
+    margin-left: 50vw;
+    margin-bottom: -.25vh;
+}
+
+.twitch a{
+    padding: 0, 0;
+}
+
+.discord{
+    display: flex ;
+    align-self: flex-end;
 }
 .discord a{
     padding: 0, 0;
@@ -61,11 +76,13 @@ body{
 
 
 .rclogo img {width:100%; max-height: 300px; object-fit:contain; top: 0px; left: 0px; margin-bottom: 0;}
-.discord img {width: 2.5vw; height: auto; justify-content:right;}
+.twitch img {width: 2.5vw; height: auto;}
+.discord img {width: 2.5vw; height: auto;}
 .pc2logo img {width:100%; height:auto}
 .pc2logodark img {width:100%; height:auto}
 .aclogo img {width:100%; height:auto}
 .aclogodark img {width:100%; height:auto}
+
 
 /*****************NAV. BUTTONS*********************/
 .homebuttons{
@@ -123,3 +140,18 @@ body{
                 cursor: pointer;
             }
 /********************************************/
+
+
+.wip{
+
+    display:flex;
+    justify-content: center;
+    margin-top: 10vh;
+    font-family: verdana;
+    font-size: 5vh;
+    background-color: gray;
+    border: solid;
+    border-color: darkgray;
+    width: 60vw;
+    margin-left: 18.5vw;
+}
