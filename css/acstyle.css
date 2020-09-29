@@ -54,10 +54,14 @@ body{
     margin-top: -1vh;
 }
 
+.liveview{
+    margin-top: 1vh;
+    margin-left: 50vw;
+}
+
 .twitch{
     display: flex;
     justify-content: flex-start;
-    margin-left: 50vw;
     margin-bottom: -.25vh;
 }
 
@@ -68,6 +72,7 @@ body{
 .discord{
     display: flex ;
     align-self: flex-end;
+    margin-left: .05vw;
 }
 .discord a{
     padding: 0, 0;
@@ -89,7 +94,11 @@ body{
     justify-content: space-evenly;
     margin-top: 6vh;
    
+    -webkit-animation: fadein 1.5s;
+    animation: fadein 1.5s;
 }
+@-webkit-keyframes fadein { from { opacity: 0; } to { opacity: 1; }  }
+@keyframes fadein { from { opacity: 0; } to { opacity: 1; }  } 
 
     .f1logodark{
 
