@@ -1,3 +1,5 @@
+/**************************************/
+
 /****************BACKGROUND*************/
 body{
 
@@ -46,7 +48,7 @@ body{
     padding: .9vw 3vh;
     text-decoration: none;
     font-size: 3vh;
-    font-family: verdana;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
 .rightbuttons{
@@ -83,10 +85,9 @@ body{
     color: lightblue;
 }
 /*****************leaguetitle*********************/
-
 .leaguetitle {
     display:flex;
-    font-family: verdana;
+    font-family: myFirstFont;
     font-size: 2vh;
     color: white;
     width: 100vw;

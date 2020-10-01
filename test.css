@@ -1,0 +1,11 @@
+@font-face {
+font-family: 'Bachelor';
+src: url(../fonts/bachelor.ttf) format(truetype);
+font-weight: normal;
+font-style: normal;
+}
+
+body{
+
+    font-family: 'Bachelor'
+}
