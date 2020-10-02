@@ -1,4 +1,13 @@
-/**************************************/
+/****************IMPORTS*******************/
+@import url('https://fonts.googleapis.com/css?family=Orbitron:600');
+@import url('https://fonts.googleapis.com/css?family=Bebas Neue:400');
+
+/***************ANIMATIONS*****************/
+@-webkit-keyframes fadein { from { opacity: 0; } to { opacity: 1; }  }
+@keyframes fadein { from { opacity: 0; } to { opacity: 1; }  } 
+
+@-webkit-keyframes move_in { from { margin-left: -20%; } to { margin-left: 10px; }  }
+@keyframes move_in { from { margin-left: -20%; } to { margin-left: 10px; }  }
 
 /****************BACKGROUND*************/
 body{
@@ -15,10 +24,6 @@ body{
     
 
 }
-
-
-
-
 /****************TITLE******************/
 .title{
     flex-direction: column;
@@ -47,8 +52,8 @@ body{
     text-align: justify;
     padding: .9vw 3vh;
     text-decoration: none;
-    font-size: 3vh;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.8vh;
+    font-family: 'Bebas Neue';
   }
 
 .rightbuttons{
@@ -59,7 +64,7 @@ body{
 
 .liveview{
     margin-top: 1vh;
-    margin-left: 50vw;
+    margin-left: 54vw;
 }
 
 .twitch{
@@ -82,22 +87,21 @@ body{
 }
 
 .topnav a:hover {
-    color: lightblue;
+    color: black;
+    background-color: lightgrey;
 }
 /*****************leaguetitle*********************/
 .leaguetitle {
     display:flex;
-    font-family: myFirstFont;
+    font-family: 'Orbitron';
     font-size: 2vh;
     color: white;
     width: 100vw;
-    margin-top: -2.5vh;
+    margin-top: 1.5vh;
     justify-content: center;
     -webkit-animation: fadein 1.5s;
     animation: fadein 1.5s;
 }
-@-webkit-keyframes fadein { from { opacity: 0; } to { opacity: 1; }  }
-@keyframes fadein { from { opacity: 0; } to { opacity: 1; }  } 
 /*****************SIDE NAV BUTTONS*********************/
 .sidenav {
     width: 6.4vw;
@@ -111,15 +115,13 @@ body{
     -webkit-animation: .75s linear 0s 1 normal move_in;
             animation: .75s linear 0s 1 normal move_in;
 }
-@-webkit-keyframes move_in { from { margin-left: -20%; } to { margin-left: 10px; }  }
-@keyframes move_in { from { margin-left: -20%; } to { margin-left: 10px; }  }
   .sidenav a {
     padding: 1vh;
     text-decoration: none;
-    font-size: 2.5vh;
+    font-size: 3vh;
     color: white;
     display: block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: 'Bebas Neue';
   }
   
   .sidenav a:hover {
@@ -141,8 +143,6 @@ body{
     -webkit-animation: fadein 1.5s;
     animation: fadein 1.5s;
 }
-@-webkit-keyframes fadein { from { opacity: 0; } to { opacity: 1; }  }
-@keyframes fadein { from { opacity: 0; } to { opacity: 1; }  } 
 
 /**********************************************/
 

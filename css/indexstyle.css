@@ -1,3 +1,14 @@
+/****************IMPORTS*******************/
+@import url('https://fonts.googleapis.com/css?family=Orbitron:600');
+@import url('https://fonts.googleapis.com/css?family=Bebas Neue:400');
+
+/***************ANIMATIONS*****************/
+@-webkit-keyframes fadein { from { opacity: 0; } to { opacity: 1; }  }
+@keyframes fadein { from { opacity: 0; } to { opacity: 1; }  } 
+
+@-webkit-keyframes move_in { from { margin-left: -20%; } to { margin-left: 10px; }  }
+@keyframes move_in { from { margin-left: -20%; } to { margin-left: 10px; }  }
+
 /****************BACKGROUND*************/
 body{
 
@@ -11,9 +22,6 @@ body{
     padding: 0;
     margin: 0;
 }
-
-
-
 
 /****************TITLE******************/
 .title{
@@ -29,7 +37,7 @@ body{
 .topnav{
     margin-top: -.5vh;
     object-fit: cover;
-    background-color: #434242;
+    background-color: #494545;
     overflow: hidden;
     position: relative;
     width: 100%;
@@ -43,9 +51,9 @@ body{
     text-align: justify;
     padding: .9vw 3vh;
     text-decoration: none;
-    font-size: 3vh;
-    font-family: verdana;
-  }
+    font-size: 3.8vh;
+    font-family: 'Bebas Neue'
+}
 
 .rightbuttons{
     display:flex;
@@ -55,7 +63,7 @@ body{
 
 .liveview{
     margin-top: 1vh;
-    margin-left: 50vw;
+    margin-left: 54vw;
 }
 
 .twitch{
@@ -75,6 +83,11 @@ body{
 }
 .discord a{
     padding: 0, 0;
+}
+
+.topnav a:hover {
+    color: black;
+    background-color: lightgrey;
 }
 /**********************************************/
 
