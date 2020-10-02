@@ -56,12 +56,12 @@ body{
     text-decoration: none;
     font-size: 3.8vh;
     font-family: 'Bebas Neue'
-  }
+}
 
 .rightbuttons{
     display:flex;
     justify-content: flex end;
-    margin-top: -1vh;
+    margin-top: -.85vh;
 }
 
 .liveview{
@@ -72,18 +72,20 @@ body{
 .twitch{
     display: flex;
     justify-content: flex-start;
-    margin-bottom: -.25vh;
+    margin-top: 1vh;
 }
 
 .twitch a{
     padding: 0, 0;
-}
 
+}
 .discord{
     display: flex ;
     align-self: flex-end;
     margin-left: .05vw;
+    margin-bottom: .35vh;
 }
+
 .discord a{
     padding: 0, 0;
 }
@@ -92,6 +94,19 @@ body{
     color: black;
     background-color: lightgrey;
 }
+/**********************************************/
+
+
+.rclogo img {width:100%; max-height: 300px; object-fit:contain; top: 0px; left: 0px; margin-bottom: 0;}
+.twitch img {width: auto; height: 5vh;}
+.discord img {width: 2vw; height: auto;}
+.pc2logo img {width:100%; height:auto}
+.pc2logodark img {width:100%; height:auto}
+.aclogo img {width:100%; height:auto}
+.aclogodark img {width:100%; height:auto}
+.wip img {width: 10vw; height: auto}
+
+
 /*****************leaguetitle*********************/
 .leaguetitle {
     display:flex;
@@ -159,10 +174,3 @@ body{
     margin-top: 6vh;
 }
 /**********************************************/
-
-.rclogo img {width:100%; max-height: 10rem; object-fit:contain;}
-.twitch img {width: 2.5vw; height: auto;}
-.discord img {width: 2.5vw; height: auto;}
-.wip img {width: 10vw; height: auto;}
-.calendar img {width: auto; height: auto;}
-
