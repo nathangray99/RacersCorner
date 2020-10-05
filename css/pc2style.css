@@ -146,6 +146,7 @@ body{
 .fr35logodark img {width:100%; height:auto}
 .lmplogo img {width:100%; height:auto}
 .lmplogodark img {width:100%; height:auto}
+.botbanner img {width:5vw; height:auto;}
 
 /*****************NAV. BUTTONS*********************/
 .pc2buttons{
@@ -204,3 +205,9 @@ body{
                 cursor: pointer;
             }
 /********************************************/
+.botbanner {
+    margin-left: 0;
+    margin-top: -1vh;
+    position: fixed;
+
+}

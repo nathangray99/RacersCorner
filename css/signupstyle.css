@@ -144,6 +144,7 @@ body{
 .aclogo img {width:100%; height:auto}
 .aclogodark img {width:100%; height:auto}
 .wip img {width: 10vw; height: auto}
+.botbanner img {width:5vw; height:auto;}
 
 
 /*****************leaguetitle*********************/
@@ -209,3 +210,9 @@ body{
     margin-left: 12.5vw;
 }
 /**********************************************/
+.botbanner {
+    margin-left: 0;
+    margin-top: -1vh;
+    position: fixed;
+
+}
