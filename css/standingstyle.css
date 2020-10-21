@@ -216,5 +216,12 @@ body{
     margin-left: 0;
     margin-top: -1vh;
     position: fixed;
+}
 
+.data{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        -webkit-animation: fadein 1.5s;
+        animation: fadein 1.5s;
 }
