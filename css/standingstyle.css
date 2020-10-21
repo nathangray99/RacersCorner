@@ -152,7 +152,8 @@ body{
 
 
 /*****************leaguetitle*********************/
-.leaguetitle {
+
+.leagueheader{
     display:flex;
     font-family: 'Orbitron';
     font-size: 2vh;
@@ -162,6 +163,17 @@ body{
     justify-content: center;
     -webkit-animation: fadein 1.5s;
     animation: fadein 1.5s;
+}
+.time {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Orbitron';
+    color: white;
+    font-size: 2.5vh;
+    margin-left: 2vh;
+    -webkit-animation: fadein 1.5s;
+    animation: fadein 1.5s;
+    margin-top: -12vh;
 }
 /*****************SIDE NAV BUTTONS*********************/
 .sidenav {
@@ -222,6 +234,7 @@ body{
         display: flex;
         justify-content: center;
         flex-direction: row;
+        margin-top: 1vh;
         -webkit-animation: fadein 1.5s;
         animation: fadein 1.5s;
 }
