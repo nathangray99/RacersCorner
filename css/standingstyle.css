@@ -234,7 +234,12 @@ body{
         display: flex;
         justify-content: center;
         flex-direction: row;
-        margin-top: 1vh;
+        margin-top: 3vh;
         -webkit-animation: fadein 1.5s;
         animation: fadein 1.5s;
+}
+
+.team{
+    margin-left: 1.5vw;
+    
 }
