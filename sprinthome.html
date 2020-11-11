@@ -63,9 +63,8 @@
     </div>
   </div>
 
-
-  <div class=leaguetitle>
-    <div class=time><p>SATURDAYS AT 12PM PST</p></div>
+  <div class=leaguetitle><h1> PC2 SPRINT Cup</h1></div>
+    <div class=time2><p>SATURDAYS AT 12PM PST</p></div>
   </div>
   <div class= "sidenav">
     <a id="home" href="sprinthome.html">Overview</a>
@@ -82,14 +81,40 @@
         <p>THIS PORTION OF THE WEBSITE IS UNDER MAINTENANCE </p>
         <img src="images/wip.png" alt= "null"></img>
     </div> -->
-
+<!-- 
     <div class= "wip">
     <a id="signup" href="sprintsignup.html">Click here to signup!</p>
-    </div>
+    </div> -->
 
 
      <!-- <div class="botbanner">
       <img src="./images/botbanner.png" alt="null">
      </div> -->
+
+     <div class="data">
+      <script>
+        setInterval("reloadIFrame('sprintcurrent', 'https://docs.google.com/spreadsheets/d/1xUwP87uTmhKfwrvuhgk9JRrHVW41AL5dzXSQUsgEUMU/htmlembed/sheet?gid=0');", 60000);
+      </script>
+      <div class="sprintcurrent">
+          <iframe id="sprintsheet" width="175" height="80" seamless frameborder="1" scrolling="no" src="https://docs.google.com/spreadsheets/d/1xUwP87uTmhKfwrvuhgk9JRrHVW41AL5dzXSQUsgEUMU/htmlembed/sheet?gid=0"></iframe>
+      </div>
+      <script>
+        setInterval("reloadIFrame('sprintarchive', 'https://docs.google.com/spreadsheets/d/1xUwP87uTmhKfwrvuhgk9JRrHVW41AL5dzXSQUsgEUMU/htmlembed/sheet?gid=1725065832');", 60000);
+      </script>
+      <div class="sprintarchive">
+          <iframe id="sprintsheet" width="185" height="80" seamless frameborder="1" scrolling="no" src="https://docs.google.com/spreadsheets/d/1xUwP87uTmhKfwrvuhgk9JRrHVW41AL5dzXSQUsgEUMU/htmlembed/sheet?gid=1725065832"></iframe>
+      </div>
+      <script>
+        setInterval("reloadIFrame('sprintleader', 'https://docs.google.com/spreadsheets/d/1xUwP87uTmhKfwrvuhgk9JRrHVW41AL5dzXSQUsgEUMU/htmlembed/sheet?gid=1834157623');", 60000);
+      </script>
+      <div class="sprintleader">
+          <iframe id="sprintsheet" width="270" height="1000" seamless frameborder="1" scrolling="yes" src="https://docs.google.com/spreadsheets/d/1xUwP87uTmhKfwrvuhgk9JRrHVW41AL5dzXSQUsgEUMU/htmlembed/sheet?gid=1834157623"></iframe>
+      </div>
+  </div>
+  <script src="js/league.js"></script>
+</body>
+</html>
+
+
 </body>
 </html>
